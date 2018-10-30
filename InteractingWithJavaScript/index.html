@@ -5,23 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>XXXXXXXXXXXX</title>
-    <style>
-        ul {
-            list-style: url("../assets/tick.gif");
-        }
-    </style>
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <h1>XXXXXXXXXXX</h1>
-    <ul>
-        <li><a href="#">x.x XXXXXXXXX XXXXXXXXX</a></li>
-        <li><a href="#">x.x XXXXXXXXX XXXXXXXXX</a></li>
-        <li><a href="#">x.x XXXXXXXXX XXXXXXXXX</a></li>
-        <li><a href="#">x.x XXXXXXXXX XXXXXXXXX</a></li>
-        <li><a href="#">x.x XXXXXXXXX XXXXXXXXX</a></li>
-    </ul>
+<body onload="showDate();">
+    <h1 id="mainHead">JavaScript Essentials</h1>
+    <div class="container">
+        <button class="button" onclick="clickMe();">click me</button>
+        <button class="button" onclick="changeText(this);">touch me</button>
+        <button class="button" onclick="changeHead(this);">date</button>
+        <button class="button" onclick="changeColor(this);">color</button>
+    </div>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, fugit.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
 </body>
+<script src="main.js"></script>
 
 </html>
